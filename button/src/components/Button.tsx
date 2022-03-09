@@ -12,6 +12,6 @@ const Button = (props:ButtonType) => {
             <button onClick={onClickHandler}>{props.name}</button>
 
     );
-};
+}
 
 export default Button;
